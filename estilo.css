@@ -1,0 +1,93 @@
+html{
+    height: 100%;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid blueviolet;
+}
+.dois {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+}
+.tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.foto {
+    clip-path: circle(50%);
+    background-image: url('https://lh3.googleusercontent.com/a/ACg8ocK5nnPzGxNKUdciToEcxZ4rMc3Qk269EGfD66-ZudAhqKuo=s288-c-no');
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    
+}
+.quatro {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+   
+    border: 1px solid black;
+   
+
+}
+ .quatro button {
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 50px;
+    height: 10px;
+    width: 10px;
+    padding: 0px
+ }
+
+span {
+    background-color: red;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    top: 0px;
+    right: 0px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: white;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.busca, .messenger, .sino {
+border-radius: 15px;
+display: flex;
+justify-content: center;
+fill: black;
+padding: 3%;
+height: 40px;
+width: 40px;
+border-radius: 50px;
+position: relative;
+}
+
+button {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quatro svg {
+    height: 5px;
+    width: 5px;
+    fill: black;
+}
